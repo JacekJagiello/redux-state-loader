@@ -1,4 +1,4 @@
-import { stateLoadingMiddleware } from "../src/Index"
+import { stateLoadingMiddleware } from "../src/redux-state-loader"
 import {
   startStateLoading,
   stateLoadingDone,

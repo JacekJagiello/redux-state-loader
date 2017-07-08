@@ -46,11 +46,7 @@ export const stateLoadingReducer = handleActions<LoadStateInterface>(
     [STATE_LOADING_DONE]: state =>
       Object.assign({}, state, { loading: false, loaded: true }),
     [STATE_LOADING_FAILED]: (state, action) =>
-      Object.assign({}, state, {
-        loading: false,
-        failed: true,
-        error: action.payload
-      })
+      Object.assign({}, state, { loading: false, failed: true, error: action.payload })
   },
   initialState
 )

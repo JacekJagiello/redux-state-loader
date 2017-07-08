@@ -1,7 +1,7 @@
 import { FSA, ErrorFSA } from "flux-standard-action"
 import { createAction } from "redux-actions"
 import { Action } from "redux"
-import { LoadStateInterface, initialState } from "./Index"
+import { LoadStateInterface, initialState } from "./redux-state-loader"
 
 export const STATE_LOADING_START = "@@redux-state-loader/STATE_LOADING_START"
 export const STATE_LOADING_DONE = "@@redux-state-loader/STATE_LOADING_DONE"

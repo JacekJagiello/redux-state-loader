@@ -1,4 +1,4 @@
-import { waitForState } from "../src/Index"
+import { waitForState } from "../src/redux-state-loader"
 import { stateLoadingDone } from "../src/Actions"
 
 interface ExmapleState {

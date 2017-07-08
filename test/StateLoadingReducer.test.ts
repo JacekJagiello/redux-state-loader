@@ -2,7 +2,7 @@ import {
   stateLoadingReducer,
   initialState,
   LoadStateInterface
-} from "../src/Index"
+} from "../src/redux-state-loader"
 import {
   startStateLoading,
   stateLoadingDone,
