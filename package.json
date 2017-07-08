@@ -1,6 +1,6 @@
 {
   "name": "@jacekjagiello/redux-state-loader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "keywords": [],
   "main": "dist/redux-state-loader.umd.js",
@@ -12,7 +12,7 @@
   "author": "Jacek Jagiello <jacekjagiello47@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:JacekJagiello/react-state-loader.git"
+    "url": "git@github.com:JacekJagiello/redux-state-loader.git"
   },
   "license": "MIT",
   "engines": {
